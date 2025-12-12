@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    min-height: 900px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+/* LEFT SIDE */
+.left{
+    background: #24a795;
+    padding: 40px;
+    color: #fff;
+}
+
+.profileText{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profileImg{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 4px solid #ffffff55;
+}
+
+.profileImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2{
+    margin-top: 10px;
+    font-size: 22px;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+
+.profileText h2 span{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.title{
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ffffff66;
+    padding-bottom: 5px;
+}
+
+.Info ul{
+    list-style: none;
+    margin: 10px 0 20px;
+}
+
+.Info ul li{
+    margin: 8px 0;
+}
+
+/* RIGHT SIDE */
+.right{
+    padding: 40px;
+}
+
+.title2{
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #167266;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about{
+    margin-bottom: 40px;
+}
+
+.about p{
+    line-height: 1.6em;
+    color: #333;
+}
+
+.box{
+    display: flex;
+    margin: 20px 0;
+}
+
+.year_company{
+    min-width: 150px;
+}
+
+.year_company h5{
+    color: #555;
+    font-weight: bold;
+}
+
+.text h4{
+    color: #167266;
+    font-size: 18px;
+}
+
+.education li{
+    margin: 8px 0;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio {
+    margin-top: 40px;
+}
+
+.portfolio .title2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* Using grid to create a table-like layout */
+.works {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px; /* opcional */
+}
+
+.works li {
+    background: #e6f2ef; /* color suave */
+    padding: 12px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 500;
+    border: 1px solid #c3dad4;
+}
