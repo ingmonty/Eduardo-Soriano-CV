@@ -158,3 +158,46 @@ body{
     font-weight: 500;
     border: 1px solid #c3dad4;
 }
+
+
+
+/* --- Responsive to visualize in cellphones --- */
+@media (max-width: 768px) {
+
+    .container {
+        grid-template-columns: 1fr; /* Cambia a 1 columna */
+        margin: 20px;
+    }
+
+    .left {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .right {
+        padding: 20px;
+    }
+
+    .profileImg {
+        width: 140px;
+        height: 140px;
+    }
+
+    .works {
+        grid-template-columns: 1fr 1fr; /* 2 columnas en móvil */
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .works {
+        grid-template-columns: 1fr; /* 1 columna en pantallas muy pequeñas */
+    }
+
+    .profileImg {
+        width: 120px;
+        height: 120px;
+    }
+}
+
