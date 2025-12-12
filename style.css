@@ -28,7 +28,7 @@ body{
 
 /* LEFT SIDE */
 .left{
-    background: #24a795;
+    background: #1671a5;
     padding: 40px;
     color: #fff;
 }
@@ -142,16 +142,16 @@ body{
 /* Using grid to create a table-like layout */
 .works {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-template-columns: repeat(3, 1fr); /* 3 colums */
     gap: 15px;
     list-style: none;
     padding: 0;
     margin: 0 auto;
-    max-width: 600px; /* opcional */
+    max-width: 600px; 
 }
 
 .works li {
-    background: #e6f2ef; /* color suave */
+    background: #e6f2ef; /* Soft color  */
     padding: 12px;
     text-align: center;
     border-radius: 6px;
