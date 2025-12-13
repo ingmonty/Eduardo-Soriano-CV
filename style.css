@@ -184,20 +184,29 @@ body{
     }
 
     .works {
-        grid-template-columns: 1fr 1fr; /* 2 columnas en móvil */
+        grid-template-columns: 1fr 1fr; /* 2 colums. */
         max-width: 100%;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
-    .works {
-        grid-template-columns: 1fr; /* 1 columna en pantallas muy pequeñas */
+    .box {
+        grid-template-columns: 1fr; /* 1 colum. */
     }
 
-    .profileImg {
-        width: 120px;
-        height: 120px;
+    .year_company {
+        margin-bottom: 10px;
+    }
+
+    .year_company h5 {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .text {
+        width: 100%;
     }
 }
+
 
