@@ -192,7 +192,7 @@ body{
 @media (max-width: 768px) {
 
     .box {
-        grid-template-columns: 1fr; /* 1 colum. */
+        flex-direction: column; /* Eliminate space not necesary */
     }
 
     .year_company {
@@ -208,5 +208,3 @@ body{
         width: 100%;
     }
 }
-
-
